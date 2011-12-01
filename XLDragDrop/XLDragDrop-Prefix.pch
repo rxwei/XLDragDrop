@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'XLDragDrop' target in the 'XLDragDrop' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

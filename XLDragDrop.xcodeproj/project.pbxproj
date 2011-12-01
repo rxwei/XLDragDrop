@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E82679D148778BE00DB57BA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E82679C148778BE00DB57BA /* Cocoa.framework */; };
+		2E8267A7148778BE00DB57BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E8267A5148778BE00DB57BA /* InfoPlist.strings */; };
+		2E8267AB148778BE00DB57BA /* XLDragDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8267AA148778BE00DB57BA /* XLDragDrop.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E826799148778BE00DB57BA /* XLDragDrop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLDragDrop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E82679C148778BE00DB57BA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2E82679F148778BE00DB57BA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2E8267A0148778BE00DB57BA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2E8267A1148778BE00DB57BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E8267A4148778BE00DB57BA /* XLDragDrop-Info.plist */ = {isa = PBXFileReference; path = "XLDragDrop-Info.plist"; sourceTree = "<group>"; };
+		2E8267A6148778BE00DB57BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E8267A8148778BE00DB57BA /* XLDragDrop-Prefix.pch */ = {isa = PBXFileReference; path = "XLDragDrop-Prefix.pch"; sourceTree = "<group>"; };
+		2E8267A9148778BE00DB57BA /* XLDragDrop.h */ = {isa = PBXFileReference; path = XLDragDrop.h; sourceTree = "<group>"; };
+		2E8267AA148778BE00DB57BA /* XLDragDrop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLDragDrop.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E826795148778BE00DB57BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E82679D148778BE00DB57BA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E82678D148778BD00DB57BA = {
+			isa = PBXGroup;
+			children = (
+				2E8267A2148778BE00DB57BA /* XLDragDrop */,
+				2E82679B148778BE00DB57BA /* Frameworks */,
+				2E82679A148778BE00DB57BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E82679A148778BE00DB57BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E826799148778BE00DB57BA /* XLDragDrop.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E82679B148778BE00DB57BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E82679C148778BE00DB57BA /* Cocoa.framework */,
+				2E82679E148778BE00DB57BA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E82679E148778BE00DB57BA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E82679F148778BE00DB57BA /* AppKit.framework */,
+				2E8267A0148778BE00DB57BA /* CoreData.framework */,
+				2E8267A1148778BE00DB57BA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2E8267A2148778BE00DB57BA /* XLDragDrop */ = {
+			isa = PBXGroup;
+			children = (
+				2E8267A9148778BE00DB57BA /* XLDragDrop.h */,
+				2E8267AA148778BE00DB57BA /* XLDragDrop.m */,
+				2E8267A3148778BE00DB57BA /* Supporting Files */,
+			);
+			path = XLDragDrop;
+			sourceTree = "<group>";
+		};
+		2E8267A3148778BE00DB57BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E8267A4148778BE00DB57BA /* XLDragDrop-Info.plist */,
+				2E8267A5148778BE00DB57BA /* InfoPlist.strings */,
+				2E8267A8148778BE00DB57BA /* XLDragDrop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E826796148778BE00DB57BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E826798148778BE00DB57BA /* XLDragDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E8267AE148778BE00DB57BA /* Build configuration list for PBXNativeTarget "XLDragDrop" */;
+			buildPhases = (
+				2E826794148778BE00DB57BA /* Sources */,
+				2E826795148778BE00DB57BA /* Frameworks */,
+				2E826796148778BE00DB57BA /* Headers */,
+				2E826797148778BE00DB57BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLDragDrop;
+			productName = XLDragDrop;
+			productReference = 2E826799148778BE00DB57BA /* XLDragDrop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E82678F148778BD00DB57BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Xinranmsn Labs";
+			};
+			buildConfigurationList = 2E826792148778BD00DB57BA /* Build configuration list for PBXProject "XLDragDrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E82678D148778BD00DB57BA;
+			productRefGroup = 2E82679A148778BE00DB57BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E826798148778BE00DB57BA /* XLDragDrop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E826797148778BE00DB57BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8267A7148778BE00DB57BA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E826794148778BE00DB57BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8267AB148778BE00DB57BA /* XLDragDrop.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E8267A5148778BE00DB57BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E8267A6148778BE00DB57BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E8267AC148778BE00DB57BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2E8267AD148778BE00DB57BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2E8267AF148778BE00DB57BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XLDragDrop/XLDragDrop-Prefix.pch";
+				INFOPLIST_FILE = "XLDragDrop/XLDragDrop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		2E8267B0148778BE00DB57BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XLDragDrop/XLDragDrop-Prefix.pch";
+				INFOPLIST_FILE = "XLDragDrop/XLDragDrop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E826792148778BD00DB57BA /* Build configuration list for PBXProject "XLDragDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8267AC148778BE00DB57BA /* Debug */,
+				2E8267AD148778BE00DB57BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E8267AE148778BE00DB57BA /* Build configuration list for PBXNativeTarget "XLDragDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8267AF148778BE00DB57BA /* Debug */,
+				2E8267B0148778BE00DB57BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E82678F148778BD00DB57BA /* Project object */;
+}
