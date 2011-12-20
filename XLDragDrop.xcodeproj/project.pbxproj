@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		2E82679D148778BE00DB57BA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E82679C148778BE00DB57BA /* Cocoa.framework */; };
 		2E8267A7148778BE00DB57BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E8267A5148778BE00DB57BA /* InfoPlist.strings */; };
-		2E8267AB148778BE00DB57BA /* XLDragDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8267AA148778BE00DB57BA /* XLDragDrop.m */; };
+		2E8267B3148778D400DB57BA /* XLDragDropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8267B1148778D400DB57BA /* XLDragDropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E8267B4148778D400DB57BA /* XLDragDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8267B2148778D400DB57BA /* XLDragDropView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,11 +19,11 @@
 		2E82679F148778BE00DB57BA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2E8267A0148778BE00DB57BA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2E8267A1148778BE00DB57BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2E8267A4148778BE00DB57BA /* XLDragDrop-Info.plist */ = {isa = PBXFileReference; path = "XLDragDrop-Info.plist"; sourceTree = "<group>"; };
+		2E8267A4148778BE00DB57BA /* XLDragDrop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XLDragDrop-Info.plist"; sourceTree = "<group>"; };
 		2E8267A6148778BE00DB57BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2E8267A8148778BE00DB57BA /* XLDragDrop-Prefix.pch */ = {isa = PBXFileReference; path = "XLDragDrop-Prefix.pch"; sourceTree = "<group>"; };
-		2E8267A9148778BE00DB57BA /* XLDragDrop.h */ = {isa = PBXFileReference; path = XLDragDrop.h; sourceTree = "<group>"; };
-		2E8267AA148778BE00DB57BA /* XLDragDrop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLDragDrop.m; sourceTree = "<group>"; };
+		2E8267A8148778BE00DB57BA /* XLDragDrop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLDragDrop-Prefix.pch"; sourceTree = "<group>"; };
+		2E8267B1148778D400DB57BA /* XLDragDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLDragDropView.h; sourceTree = "<group>"; };
+		2E8267B2148778D400DB57BA /* XLDragDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLDragDropView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +77,8 @@
 		2E8267A2148778BE00DB57BA /* XLDragDrop */ = {
 			isa = PBXGroup;
 			children = (
-				2E8267A9148778BE00DB57BA /* XLDragDrop.h */,
-				2E8267AA148778BE00DB57BA /* XLDragDrop.m */,
+				2E8267B1148778D400DB57BA /* XLDragDropView.h */,
+				2E8267B2148778D400DB57BA /* XLDragDropView.m */,
 				2E8267A3148778BE00DB57BA /* Supporting Files */,
 			);
 			path = XLDragDrop;
@@ -100,6 +101,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8267B3148778D400DB57BA /* XLDragDropView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E8267AB148778BE00DB57BA /* XLDragDrop.m in Sources */,
+				2E8267B4148778D400DB57BA /* XLDragDropView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
