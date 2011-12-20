@@ -1,0 +1,15 @@
+
+  README
+  XLDragDrop
+
+  Created by Richard Wei on 11-11-21.
+  Copyright (c) 2011 Xinranmsn Labs. All rights reserved.
+
+This is an encapsulation of NSView Drag & Drop APIs (NSDraggingDestination). If you want to add functionalities like dragging files in, consider to use XLDragDrop.
+
+This is written with ARC (Objective-C Automatic Reference Counting) enabled, and therefore does not support either gcc or llvm-gcc. Please use Apple LLVM Compiler (3.0 or later).
+
+Build. Add XLDragDrop.framework to your project.
+
+Implementation:
+  Initialize XLDragDropView with -initWithFrame:normalBackgroundImageName:. Don't forget to set highlightedBackgroundImageName and acceptedBackgroundImageName after initialization. Then implement delegate methods in your controller class.

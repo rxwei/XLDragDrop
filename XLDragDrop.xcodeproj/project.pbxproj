@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0191BA14A0776800197E62 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 2E0191B914A0776800197E62 /* README */; };
 		2E82679D148778BE00DB57BA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E82679C148778BE00DB57BA /* Cocoa.framework */; };
 		2E8267A7148778BE00DB57BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E8267A5148778BE00DB57BA /* InfoPlist.strings */; };
 		2E8267B3148778D400DB57BA /* XLDragDropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8267B1148778D400DB57BA /* XLDragDropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E0191B914A0776800197E62 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		2E826799148778BE00DB57BA /* XLDragDrop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLDragDrop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E82679C148778BE00DB57BA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2E82679F148778BE00DB57BA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -41,6 +43,7 @@
 		2E82678D148778BD00DB57BA = {
 			isa = PBXGroup;
 			children = (
+				2E0191B914A0776800197E62 /* README */,
 				2E8267A2148778BE00DB57BA /* XLDragDrop */,
 				2E82679B148778BE00DB57BA /* Frameworks */,
 				2E82679A148778BE00DB57BA /* Products */,
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E8267A7148778BE00DB57BA /* InfoPlist.strings in Resources */,
+				2E0191BA14A0776800197E62 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +284,7 @@
 				2E8267B0148778BE00DB57BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

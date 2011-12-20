@@ -1,6 +1,6 @@
 //
 //  XLDragDropView.h
-//  AVRP
+//  XLDragDrop
 //
 //  Created by Richard Wei on 11-11-21.
 //  Copyright (c) 2011 Xinranmsn Labs. All rights reserved.
