@@ -12,7 +12,41 @@
 		2E8267A7148778BE00DB57BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E8267A5148778BE00DB57BA /* InfoPlist.strings */; };
 		2E8267B3148778D400DB57BA /* XLDragDropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8267B1148778D400DB57BA /* XLDragDropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E8267B4148778D400DB57BA /* XLDragDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8267B2148778D400DB57BA /* XLDragDropView.m */; };
+		7B6D95C715FA926100972A69 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E82679C148778BE00DB57BA /* Cocoa.framework */; };
+		7B6D95CD15FA926100972A69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B6D95CB15FA926100972A69 /* InfoPlist.strings */; };
+		7B6D95CF15FA926100972A69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6D95CE15FA926100972A69 /* main.m */; };
+		7B6D95D315FA926100972A69 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7B6D95D115FA926100972A69 /* Credits.rtf */; };
+		7B6D95D615FA926100972A69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6D95D515FA926100972A69 /* AppDelegate.m */; };
+		7B6D95D915FA926100972A69 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B6D95D715FA926100972A69 /* MainMenu.xib */; };
+		7B6D95DF15FA929300972A69 /* XLDragDrop.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E826799148778BE00DB57BA /* XLDragDrop.framework */; };
+		7B6D95E215FA92A700972A69 /* XLDragDrop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E826799148778BE00DB57BA /* XLDragDrop.framework */; };
+		7B6D95E915FA93CB00972A69 /* 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7B6D95E715FA93CB00972A69 /* 1.pdf */; };
+		7B6D95EA15FA93CB00972A69 /* 2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7B6D95E815FA93CB00972A69 /* 2.pdf */; };
+		7B6D95EC15FA93E100972A69 /* 3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7B6D95EB15FA93E100972A69 /* 3.pdf */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B6D95E015FA929A00972A69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E82678F148778BD00DB57BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E826798148778BE00DB57BA;
+			remoteInfo = XLDragDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B6D95DE15FA928900972A69 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7B6D95DF15FA929300972A69 /* XLDragDrop.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2E0191B914A0776800197E62 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
@@ -26,6 +60,18 @@
 		2E8267A8148778BE00DB57BA /* XLDragDrop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLDragDrop-Prefix.pch"; sourceTree = "<group>"; };
 		2E8267B1148778D400DB57BA /* XLDragDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLDragDropView.h; sourceTree = "<group>"; };
 		2E8267B2148778D400DB57BA /* XLDragDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLDragDropView.m; sourceTree = "<group>"; };
+		7B6D95C515FA926100972A69 /* XLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6D95CA15FA926100972A69 /* XLDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XLDemo-Info.plist"; sourceTree = "<group>"; };
+		7B6D95CC15FA926100972A69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B6D95CE15FA926100972A69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B6D95D015FA926100972A69 /* XLDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7B6D95D215FA926100972A69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7B6D95D415FA926100972A69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B6D95D515FA926100972A69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B6D95D815FA926100972A69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7B6D95E715FA93CB00972A69 /* 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 1.pdf; sourceTree = "<group>"; };
+		7B6D95E815FA93CB00972A69 /* 2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2.pdf; sourceTree = "<group>"; };
+		7B6D95EB15FA93E100972A69 /* 3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 3.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +83,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7B6D95C215FA926100972A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6D95C715FA926100972A69 /* Cocoa.framework in Frameworks */,
+				7B6D95E215FA92A700972A69 /* XLDragDrop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -45,6 +100,7 @@
 			children = (
 				2E0191B914A0776800197E62 /* README */,
 				2E8267A2148778BE00DB57BA /* XLDragDrop */,
+				7B6D95C815FA926100972A69 /* XLDemo */,
 				2E82679B148778BE00DB57BA /* Frameworks */,
 				2E82679A148778BE00DB57BA /* Products */,
 			);
@@ -54,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				2E826799148778BE00DB57BA /* XLDragDrop.framework */,
+				7B6D95C515FA926100972A69 /* XLDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +154,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7B6D95C815FA926100972A69 /* XLDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7B6D95E715FA93CB00972A69 /* 1.pdf */,
+				7B6D95E815FA93CB00972A69 /* 2.pdf */,
+				7B6D95EB15FA93E100972A69 /* 3.pdf */,
+				7B6D95D415FA926100972A69 /* AppDelegate.h */,
+				7B6D95D515FA926100972A69 /* AppDelegate.m */,
+				7B6D95D715FA926100972A69 /* MainMenu.xib */,
+				7B6D95C915FA926100972A69 /* Supporting Files */,
+			);
+			path = XLDemo;
+			sourceTree = "<group>";
+		};
+		7B6D95C915FA926100972A69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B6D95CA15FA926100972A69 /* XLDemo-Info.plist */,
+				7B6D95CB15FA926100972A69 /* InfoPlist.strings */,
+				7B6D95CE15FA926100972A69 /* main.m */,
+				7B6D95D015FA926100972A69 /* XLDemo-Prefix.pch */,
+				7B6D95D115FA926100972A69 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -129,6 +212,25 @@
 			productReference = 2E826799148778BE00DB57BA /* XLDragDrop.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		7B6D95C415FA926100972A69 /* XLDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6D95DC15FA926100972A69 /* Build configuration list for PBXNativeTarget "XLDemo" */;
+			buildPhases = (
+				7B6D95C115FA926100972A69 /* Sources */,
+				7B6D95C215FA926100972A69 /* Frameworks */,
+				7B6D95C315FA926100972A69 /* Resources */,
+				7B6D95DE15FA928900972A69 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B6D95E115FA929A00972A69 /* PBXTargetDependency */,
+			);
+			name = XLDemo;
+			productName = XLDemo;
+			productReference = 7B6D95C515FA926100972A69 /* XLDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,6 +253,7 @@
 			projectRoot = "";
 			targets = (
 				2E826798148778BE00DB57BA /* XLDragDrop */,
+				7B6D95C415FA926100972A69 /* XLDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -165,6 +268,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7B6D95C315FA926100972A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6D95CD15FA926100972A69 /* InfoPlist.strings in Resources */,
+				7B6D95D315FA926100972A69 /* Credits.rtf in Resources */,
+				7B6D95D915FA926100972A69 /* MainMenu.xib in Resources */,
+				7B6D95E915FA93CB00972A69 /* 1.pdf in Resources */,
+				7B6D95EA15FA93CB00972A69 /* 2.pdf in Resources */,
+				7B6D95EC15FA93E100972A69 /* 3.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -176,7 +292,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7B6D95C115FA926100972A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6D95CF15FA926100972A69 /* main.m in Sources */,
+				7B6D95D615FA926100972A69 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B6D95E115FA929A00972A69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E826798148778BE00DB57BA /* XLDragDrop */;
+			targetProxy = 7B6D95E015FA929A00972A69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2E8267A5148778BE00DB57BA /* InfoPlist.strings */ = {
@@ -185,6 +318,30 @@
 				2E8267A6148778BE00DB57BA /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7B6D95CB15FA926100972A69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B6D95CC15FA926100972A69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7B6D95D115FA926100972A69 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B6D95D215FA926100972A69 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7B6D95D715FA926100972A69 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B6D95D815FA926100972A69 /* en */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -265,6 +422,40 @@
 			};
 			name = Release;
 		};
+		7B6D95DA15FA926100972A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XLDemo/XLDemo-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "XLDemo/XLDemo-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B6D95DB15FA926100972A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XLDemo/XLDemo-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "XLDemo/XLDemo-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -285,6 +476,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		7B6D95DC15FA926100972A69 /* Build configuration list for PBXNativeTarget "XLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6D95DA15FA926100972A69 /* Debug */,
+				7B6D95DB15FA926100972A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
